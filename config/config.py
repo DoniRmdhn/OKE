@@ -28,12 +28,12 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", None)
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 60 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "60")
+    getenv("DURATION_LIMIT", "360")
 )  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "380")
 )  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
@@ -66,10 +66,10 @@ GIT_TOKEN = getenv("GIT_TOKEN", None)
 # Only  Links formats are  accepted for this Var value.
 SUPPORT_CHANNEL = getenv(
     "SUPPORT_CHANNEL", None
-)  # Example:- https://t.me/TheYukki
+)  # Example:- https://t.me/synxupdate
 SUPPORT_GROUP = getenv(
     "SUPPORT_GROUP", None
-)  # Example:- https://t.me/YukkiSupport
+)  # Example:- https://t.me/synxsupport
 
 # Set it in True if you want to leave your assistant after a certain amount of time. [Set time via AUTO_LEAVE_ASSISTANT_TIME]
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", None)
