@@ -383,7 +383,7 @@ class Call(PyTgCalls):
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
-                        f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid})", duration_min, user_name,
+                        f"[{title[:25]}](https://t.me/{app.username}?start=info_{videoid})", check[0]["dur"], user,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -432,7 +432,7 @@ class Call(PyTgCalls):
                     original_chat_id,
                     photo=img,
                     caption=_["stream_1"].format(
-                        f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid})", duration_min, user_name,
+                        f"[{title[:25]}](https://t.me/{app.username}?start=info_{videoid})", check[0]["dur"], user,
                     ),
                     reply_markup=InlineKeyboardMarkup(button),
                 )
@@ -518,7 +518,7 @@ class Call(PyTgCalls):
                         original_chat_id,
                         photo=img,
                         caption=_["stream_1"].format(
-                            f"[{title[:25]}](https://t.me/{app.username}?start=info_{vidid})", duration_min, user_name,
+                            f"[{title[:25]}](https://t.me/{app.username}?start=info_{videoid})", check[0]["dur"], user,
                         ),
                         reply_markup=InlineKeyboardMarkup(button),
                     )
